@@ -53,7 +53,9 @@ export default function Home({ posts }) {
               Carleton University
             </a>
             , with a passion for backend engineering. I am moved by the positive impact tech can
-            bring about. I'm VP of Events at{' '}
+            bring about.
+            <br />
+            I'm VP of Events at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
               href="https://www.linkedin.com/company/cublueprint/"
@@ -81,7 +83,9 @@ export default function Home({ posts }) {
             >
               Public Services and Procurement Canada
             </a>
-            . Please feel free to connect with me and chat on{' '}
+            .
+            <br />
+            Please feel free to connect with me and chat on{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-green-500 decoration-2 underline-offset-2 transition duration-100 hover:text-green-500 hover:decoration-green-500/30 focus:text-lime-500 focus:ring-lime-500/40 dark:text-white dark:decoration-lime-400 dark:hover:text-lime-400 dark:hover:decoration-lime-400/30 dark:focus:text-lime-400 dark:focus:ring-lime-400/40"
               href="https://www.canada.ca/en/public-services-procurement.html"
@@ -121,7 +125,7 @@ export default function Home({ posts }) {
             <span className="hidden sm:inline">LinkedIn</span>
           </a>
           <a
-            className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-zinc-800 py-2 px-2.5 font-medium text-white shadow-lg shadow-zinc-800/10 transition selection:bg-white/30 hover:bg-zinc-800/80 hover:shadow-zinc-800/5 focus:ring-zinc-500/40 dark:bg-zinc-300 dark:text-zinc-900 dark:shadow-zinc-300/10 dark:selection:bg-zinc-900/30 dark:hover:bg-zinc-300/80 dark:hover:shadow-zinc-300/5 dark:focus:ring-zinc-300/40 md:w-auto md:px-3 md:pl-2.5"
+            className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-zinc-800 px-2.5 py-2 font-medium text-white shadow-lg shadow-zinc-800/10 transition selection:bg-white/30 hover:bg-zinc-800/80 hover:shadow-zinc-800/5 focus:ring-zinc-500/40 dark:bg-zinc-300 dark:text-zinc-900 dark:shadow-zinc-300/10 dark:selection:bg-zinc-900/30 dark:hover:bg-zinc-300/80 dark:hover:shadow-zinc-300/5 dark:focus:ring-zinc-300/40 md:w-auto md:px-3 md:pl-2.5"
             href="https://github.com/riyanah"
             rel="noreferrer"
             target="_blank"
