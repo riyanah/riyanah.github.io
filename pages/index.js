@@ -45,7 +45,7 @@ export default function Home({ posts }) {
           <p className="my-4 leading-loose">
             I'm a 3rd-year Computer Science student at{' '}
             <a
-              className="focusable rounded-sm font-medium text-zinc-800 underline decoration-rose-500 decoration-2 underline-offset-2 transition duration-100 hover:text-rose-500 hover:decoration-rose-500/30 focus:text-rose-500 focus:ring-rose-500/40 dark:text-white dark:decoration-rose-400 dark:hover:text-rose-400 dark:hover:decoration-rose-400/30 dark:focus:text-rose-400 dark:focus:ring-rose-400/40"
+              className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-500 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-500 hover:decoration-sky-500/30 focus:text-blue-500 focus:ring-sky-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
               href="https://carleton.ca/"
               rel="noreferrer"
               target="_blank"
@@ -53,9 +53,7 @@ export default function Home({ posts }) {
               Carleton University
             </a>
             , with a passion for backend engineering. I am moved by the positive impact tech can
-            bring about.
-            <br />
-            I'm VP of Events at{' '}
+            bring about. I'm VP of Events at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
               href="https://www.linkedin.com/company/cublueprint/"
@@ -76,16 +74,14 @@ export default function Home({ posts }) {
             </a>
             , and at{' '}
             <a
-              className="focusable rounded-sm font-medium text-zinc-800 underline decoration-rose-500 decoration-2 underline-offset-2 transition duration-100 hover:text-rose-500 hover:decoration-rose-500/30 focus:text-rose-500 focus:ring-rose-500/40 dark:text-white dark:decoration-rose-400 dark:hover:text-rose-400 dark:hover:decoration-rose-400/30 dark:focus:text-rose-400 dark:focus:ring-rose-400/40"
+              className="focusable rounded-sm font-medium text-zinc-800 underline decoration-green-500 decoration-2 underline-offset-2 transition duration-100 hover:text-green-500 hover:decoration-green-500/30 focus:text-lime-500 focus:ring-lime-500/40 dark:text-white dark:decoration-lime-400 dark:hover:text-lime-400 dark:hover:decoration-lime-400/30 dark:focus:text-lime-400 dark:focus:ring-lime-400/40"
               href=""
               rel="noreferrer"
               target="_blank"
             >
               Public Services and Procurement Canada
             </a>
-            .
-            <br />
-            Please feel free to connect with me and chat on{' '}
+            . Please feel free to connect with me and chat on{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-green-500 decoration-2 underline-offset-2 transition duration-100 hover:text-green-500 hover:decoration-green-500/30 focus:text-lime-500 focus:ring-lime-500/40 dark:text-white dark:decoration-lime-400 dark:hover:text-lime-400 dark:hover:decoration-lime-400/30 dark:focus:text-lime-400 dark:focus:ring-lime-400/40"
               href="https://www.canada.ca/en/public-services-procurement.html"
@@ -125,7 +121,7 @@ export default function Home({ posts }) {
             <span className="hidden sm:inline">LinkedIn</span>
           </a>
           <a
-            className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-zinc-800 px-2.5 py-2 font-medium text-white shadow-lg shadow-zinc-800/10 transition selection:bg-white/30 hover:bg-zinc-800/80 hover:shadow-zinc-800/5 focus:ring-zinc-500/40 dark:bg-zinc-300 dark:text-zinc-900 dark:shadow-zinc-300/10 dark:selection:bg-zinc-900/30 dark:hover:bg-zinc-300/80 dark:hover:shadow-zinc-300/5 dark:focus:ring-zinc-300/40 md:w-auto md:px-3 md:pl-2.5"
+            className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-indigo-500 px-2.5 py-2 font-medium text-white shadow-lg shadow-indigo-500/10 transition selection:bg-white/30 hover:bg-indigo-500/80 hover:shadow-indigo-500/5 focus:ring-indigo-500/40 dark:bg-indigo-400 dark:text-zinc-900 dark:shadow-indigo-400/10 dark:selection:bg-zinc-900/30 dark:hover:bg-indigo-400/80 dark:hover:shadow-indigo-400/5 dark:focus:ring-indigo-400/40 sm:w-auto sm:px-3 sm:pl-2.5"
             href="https://github.com/riyanah"
             rel="noreferrer"
             target="_blank"
@@ -177,7 +173,15 @@ export default function Home({ posts }) {
             rel="noreferrer"
             target="_blank"
           >
-            <span className="hidden sm:inline">Devpost</span>
+            <svg height="24" role="presentation" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                clipRule="evenodd"
+                d="M12 2C6.475 2 2 6.47 2 11.988c0 4.42 2.862 8.153 6.838 9.476.5.087.687-.212.687-.474 0-.238-.013-1.024-.013-1.86C7 19.59 6.35 18.517 6.15 17.955c-.113-.287-.6-1.174-1.025-1.411-.35-.187-.85-.65-.013-.662.788-.012 1.35.724 1.538 1.024.9 1.51 2.338 1.086 2.912.824.088-.65.35-1.086.638-1.336-2.225-.25-4.55-1.111-4.55-4.931 0-1.087.387-1.986 1.025-2.685-.1-.25-.45-1.273.1-2.646 0 0 .837-.263 2.75 1.023a9.29 9.29 0 0 1 2.5-.337c.85 0 1.7.113 2.5.337 1.912-1.298 2.75-1.023 2.75-1.023.55 1.373.2 2.397.1 2.646.637.7 1.025 1.586 1.025 2.685 0 3.832-2.337 4.681-4.562 4.931.362.312.675.912.675 1.848 0 1.336-.013 2.41-.013 2.747 0 .262.188.574.688.474C19.137 20.141 22 16.395 22 11.988 22 6.47 17.525 2 12 2Z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+            <span className="hidden sm:inline">GitHub</span>
           </a>
 
           <ThemeSwitch />
