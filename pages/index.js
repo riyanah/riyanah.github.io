@@ -77,7 +77,7 @@ export default function Home({ posts }) {
             , and at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-rose-500 decoration-2 underline-offset-2 transition duration-100 hover:text-rose-500 hover:decoration-rose-500/30 focus:text-rose-500 focus:ring-rose-500/40 dark:text-white dark:decoration-rose-400 dark:hover:text-rose-400 dark:hover:decoration-rose-400/30 dark:focus:text-rose-400 dark:focus:ring-rose-400/40"
-              href=""
+              href="https://www.canada.ca/en/public-services-procurement.html"
               rel="noreferrer"
               target="_blank"
             >
@@ -88,7 +88,7 @@ export default function Home({ posts }) {
             Please feel free to connect with me and chat on{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-green-500 decoration-2 underline-offset-2 transition duration-100 hover:text-green-500 hover:decoration-green-500/30 focus:text-lime-500 focus:ring-lime-500/40 dark:text-white dark:decoration-lime-400 dark:hover:text-lime-400 dark:hover:decoration-lime-400/30 dark:focus:text-lime-400 dark:focus:ring-lime-400/40"
-              href="https://www.canada.ca/en/public-services-procurement.html"
+              href="https://www.linkedin.com/in/riyanahmed"
               rel="noreferrer"
               target="_blank"
             >
@@ -154,23 +154,6 @@ export default function Home({ posts }) {
             </svg>
             <span className="hidden sm:inline">Email</span>
           </a>
-          {/* <a
-            className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-blue-500 px-2.5 py-2 font-medium text-white shadow-lg shadow-blue-500/10 transition selection:bg-white/30 hover:bg-blue-500/80 hover:shadow-blue-500/5 focus:ring-blue-500/40 dark:bg-blue-400 dark:text-zinc-900 dark:shadow-blue-400/10 dark:selection:bg-zinc-900/30 dark:hover:bg-blue-400/80 dark:hover:shadow-blue-400/5 dark:focus:ring-blue-400/40 sm:w-auto sm:px-3 sm:pl-2.5"
-            href="https://twitter.com/raphael_chelly"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <svg height="24" role="presentation" width="24" xmlns="http://www.w3.org/2000/svg">
-              <path
-                clipRule="evenodd"
-                d="M21.5 5.894a7.571 7.571 0 0 1-2.239.636 4.024 4.024 0 0 0 1.714-2.235 7.646 7.646 0 0 1-2.475.98A3.83 3.83 0 0 0 15.654 4c-2.516 0-4.366 2.433-3.797 4.959-3.239-.168-6.111-1.776-8.034-4.22-1.021 1.816-.53 4.19 1.206 5.393a3.78 3.78 0 0 1-1.765-.505c-.043 1.87 1.252 3.622 3.126 4.011-.548.155-1.15.19-1.76.07.495 1.604 1.934 2.771 3.641 2.804A7.642 7.642 0 0 1 2.5 18.185 10.757 10.757 0 0 0 8.476 20c7.237 0 11.326-6.334 11.079-12.015a8.101 8.101 0 0 0 1.945-2.09Z"
-                fill="currentColor"
-                fillRule="evenodd"
-              />
-            </svg>
-            <span className="hidden sm:inline">Twitter</span>
-          </a> */}
-
           <a
             className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-indigo-500 px-2.5 py-2 font-medium text-white shadow-lg shadow-indigo-500/10 transition selection:bg-white/30 hover:bg-indigo-500/80 hover:shadow-indigo-500/5 focus:ring-indigo-500/40 dark:bg-indigo-400 dark:text-zinc-900 dark:shadow-indigo-400/10 dark:selection:bg-zinc-900/30 dark:hover:bg-indigo-400/80 dark:hover:shadow-indigo-400/5 dark:focus:ring-indigo-400/40 sm:w-auto sm:px-3 sm:pl-2.5"
             href="https://devpost.com/riyan-ahmed"
@@ -239,7 +222,7 @@ export default function Home({ posts }) {
               >
                 <Image
                   src="/static/images/workxp/lockheed.jpg"
-                  alt="Octopia"
+                  alt="Lockheed Martin"
                   width="50px"
                   height="50px"
                   className="rounded-md"
@@ -272,7 +255,7 @@ export default function Home({ posts }) {
               >
                 <Image
                   src="/static/images/workxp/cub.jpg"
-                  alt="Octopia"
+                  alt="CU Blueprint"
                   width="50px"
                   height="50px"
                   className="rounded-md"
@@ -305,7 +288,7 @@ export default function Home({ posts }) {
               >
                 <Image
                   src="/static/images/workxp/pspc.jpg"
-                  alt="Octopia"
+                  alt="PSPC"
                   width="50px"
                   height="50px"
                   className="rounded-md"
