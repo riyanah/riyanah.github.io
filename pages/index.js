@@ -25,7 +25,7 @@ export default function Home({ posts }) {
         <div className="flex flex-col-reverse items-start sm:flex-row">
           <div className="flex flex-col pr-8">
             <h2 className="mb-1 text-xl font-bold tracking-tight text-zinc-600 dark:text-white md:text-2xl">
-              🤗 Hi, I'm
+              Hi, I'm
             </h2>
             <h1 className="mb-1 text-3xl font-bold tracking-tight text-zinc-800 dark:text-white md:text-5xl">
               Riyan Ahmed
@@ -52,7 +52,7 @@ export default function Home({ posts }) {
             >
               Carleton University
             </a>
-            , with a passion for backend engineering. I am moved by the positive impact tech can
+            , with a passion for backend development. I am moved by the positive impact tech can
             bring about.
             <br />
             I'm VP of Events at{' '}
