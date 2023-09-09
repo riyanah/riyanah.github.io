@@ -52,8 +52,7 @@ export default function Home({ posts }) {
             >
               Carleton University
             </a>
-            , with a passion for backend development. I am moved by the positive impact tech can
-            bring about.
+            , driven by a passion for the positive impact tech can bring about.
             <br />
             I'm VP of Events at{' '}
             <a
@@ -64,8 +63,18 @@ export default function Home({ posts }) {
             >
               CU Blueprint
             </a>
-            , a student-run club that builds open-source software for non-profits. Previously, I
-            have done Software Development Internships at{' '}
+            , a student-run club dedicated to creating open-source software for non-profits.
+            <br />I am currently a Backend Developer Intern at{' '}
+            <a
+              className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
+              href="https://www.ibm.com/ca-en"
+              rel="noreferrer"
+              target="_blank"
+            >
+              IBM
+            </a>
+            .
+            <br /> Previously, I have done Software Development Internships at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
               href="https://www.lockheedmartin.com/en-ca/index.html"
@@ -227,6 +236,39 @@ export default function Home({ posts }) {
             <li className="dark:text-zinc-350 my-5 flex items-center gap-4 text-zinc-500">
               <a
                 className="link focusable font-medium text-zinc-800 dark:text-white"
+                href="https://www.ibm.com/ca-en"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Image
+                  src="/static/images/workxp/ibm.jpg"
+                  alt="Lockheed Martin"
+                  width="50px"
+                  height="50px"
+                  className="rounded-md"
+                />
+              </a>
+              <div className="flex min-w-0 flex-col justify-center">
+                <p className="mb-1 flex items-center">
+                  <span className="truncate font-semibold text-zinc-700 dark:text-zinc-100">
+                    IBM
+                  </span>
+                  <span className="ml-1.5 inline-block flex-none translate-y-px rounded bg-zinc-100 p-1 text-xs font-medium leading-none text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
+                    2023
+                    <span className="text-zinc-350 dark:text-zinc-550 mx-0.5">—</span>
+                    2023
+                  </span>
+                </p>
+                <p className="flex items-center truncate">
+                  <span className="flex-1 truncate text-zinc-500 dark:text-zinc-400">
+                    Backend Developer Intern
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li className="dark:text-zinc-350 my-5 flex items-center gap-4 text-zinc-500">
+              <a
+                className="link focusable font-medium text-zinc-800 dark:text-white"
                 href="https://www.lockheedmartin.com/en-ca/index.html"
                 rel="noreferrer"
                 target="_blank"
@@ -313,7 +355,7 @@ export default function Home({ posts }) {
                   <span className="ml-1.5 inline-block flex-none translate-y-px rounded bg-zinc-100 p-1 text-xs font-medium leading-none text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
                     2022
                     <span className="text-zinc-350 dark:text-zinc-550 mx-0.5">—</span>
-                    20223
+                    2023
                   </span>
                 </p>
                 <p className="flex items-center truncate">
