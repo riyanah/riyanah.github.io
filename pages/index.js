@@ -74,7 +74,7 @@ export default function Home({ posts }) {
               IBM
             </a>
             .
-            <br /> Previously, I have done Software Development Internships at{' '}
+            <br /> Previously, I have done Software Engineering Internships at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
               href="https://www.lockheedmartin.com/en-ca/index.html"
@@ -294,7 +294,7 @@ export default function Home({ posts }) {
                 </p>
                 <p className="flex items-center truncate">
                   <span className="flex-1 truncate text-zinc-500 dark:text-zinc-400">
-                    Software Developer Intern
+                    Software Engineer Intern
                   </span>
                 </p>
               </div>
@@ -302,7 +302,7 @@ export default function Home({ posts }) {
             <li className="dark:text-zinc-350 my-5 flex items-center gap-4 text-zinc-500">
               <a
                 className="link focusable font-medium text-zinc-800 dark:text-white"
-                href="https://www.linkedin.com/company/cublueprint/"
+                href="https://carletonblueprint.org/"
                 rel="noreferrer"
                 target="_blank"
               >
