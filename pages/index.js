@@ -54,17 +54,19 @@ export default function Home({ posts }) {
             </a>
             , driven by a passion for the positive impact tech can bring about.
             <br />
-            I'm VP of Events at{' '}
+            I'm currently VP of Events at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
-              href="https://www.linkedin.com/company/cublueprint/"
+              href="https://carletonblueprint.org/"
               rel="noreferrer"
               target="_blank"
             >
               CU Blueprint
             </a>
-            , a student-run club dedicated to creating open-source software for non-profits.
-            <br />I am currently a Backend Developer Intern at{' '}
+            , a student-led organization dedicated to developing open-source software for
+            non-profits.
+            <br />
+            I'm currently a Backend Developer Intern at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
               href="https://www.ibm.com/ca-en"
@@ -73,7 +75,7 @@ export default function Home({ posts }) {
             >
               IBM
             </a>
-            .
+            , on the IBM Payments Center team.
             <br /> Previously, I have done Software Engineering Internships at{' '}
             <a
               className="focusable rounded-sm font-medium text-zinc-800 underline decoration-blue-800 decoration-2 underline-offset-2 transition duration-100 hover:text-blue-800 hover:decoration-blue-800/30 focus:text-blue-500 focus:ring-blue-500/40 dark:text-white dark:decoration-sky-400 dark:hover:text-sky-400 dark:hover:decoration-sky-400/30 dark:focus:text-sky-400 dark:focus:ring-sky-400/40"
@@ -135,7 +137,7 @@ export default function Home({ posts }) {
           </a>
           <a
             className="focusable flex flex-none cursor-pointer items-center justify-center gap-2 rounded-md bg-zinc-800 px-2.5 py-2 font-medium text-white shadow-lg shadow-zinc-800/10 transition selection:bg-white/30 hover:bg-zinc-800/80 hover:shadow-zinc-800/5 focus:ring-zinc-500/40 dark:bg-zinc-300 dark:text-zinc-900 dark:shadow-zinc-300/10 dark:selection:bg-zinc-900/30 dark:hover:bg-zinc-300/80 dark:hover:shadow-zinc-300/5 dark:focus:ring-zinc-300/40 md:w-auto md:px-3 md:pl-2.5"
-            href="https://github.com/riyanah"
+            href="https://www.github.com/riyanah"
             rel="noreferrer"
             target="_blank"
           >
