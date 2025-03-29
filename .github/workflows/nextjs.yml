@@ -73,8 +73,8 @@ jobs:
       - name: Debug out folder
         run: ls -alh ./out
 
-      - name: Force resolve upload-artifact
-        uses: actions/upload-artifact@v3
+      - name: Force resolve upload-pages-artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           name: dummy
           path: README.md
