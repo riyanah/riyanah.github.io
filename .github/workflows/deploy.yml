@@ -10,39 +10,32 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: 'pages'
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      artifact-id: ${{ steps.upload.outputs.artifact-id }}
+      artifact-url: ${{ steps.upload.outputs.artifact-url }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: npm
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm ci
 
-      - name: Build + Export with Next.js
-        run: |
+      - run: |
           npm run build
           npm run export
           touch out/.nojekyll
 
-      - name: Debug out folder
-        run: ls -alh ./out
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload site artifact
+        id: upload
+        uses: actions/upload-artifact@v4
         with:
+          name: static-site
           path: ./out
 
   deploy:
@@ -50,8 +43,13 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: static-site
+          path: ./out
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
