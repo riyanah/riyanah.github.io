@@ -10,13 +10,13 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      artifact-id: ${{ steps.upload.outputs.artifact-id }}
-      artifact-url: ${{ steps.upload.outputs.artifact-url }}
-
     steps:
       - uses: actions/checkout@v4
 
@@ -32,10 +32,8 @@ jobs:
           touch out/.nojekyll
 
       - name: Upload site artifact
-        id: upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
-          name: static-site
           path: ./out
 
   deploy:
@@ -43,13 +41,8 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: static-site
-          path: ./out
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
