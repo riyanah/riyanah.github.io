@@ -73,10 +73,12 @@ jobs:
       - name: Debug out folder
         run: ls -alh ./out
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Force resolve upload-artifact
+        uses: actions/upload-artifact@v3.1.3
         with:
-          path: ./out
+          name: dummy
+          path: README.md
+          if-no-files-found: ignore
 
   deploy:
     needs: build
