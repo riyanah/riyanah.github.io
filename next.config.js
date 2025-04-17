@@ -87,16 +87,16 @@ module.exports = withBundleAnalyzer({
     return config;
   },
 
-  // New configuration section for static export
+  //For static export, uncomment the following lines:
   output: 'export',
   assetPrefix: './',
   trailingSlash: true, // Set this to true for exporting with trailing slashes
-  // images: {
-  //   unoptimized: true,
-  // },
-  // exportPathMap: function () {
-  //   return {
-  //     '/': { page: '/' }, // Configure other pages here
-  //   };
-  // },
+  images: {
+    unoptimized: true,
+  },
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' }, // Configure other pages here
+    };
+  },
 });
