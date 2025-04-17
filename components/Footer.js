@@ -13,12 +13,19 @@ export default function Footer() {
 
           {/* <SocialIcon kind="twitter" href={siteMetadata.twitter} size="5" /> */}
         </div>
-        <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          {/* <div>{`© ${new Date().getFullYear()}`}</div> */}
-          <div>© Last updated: Mar 2025 </div>
-
-          <div>{` • `}</div>
+        <div className="mb-2 flex flex-wrap justify-center space-x-2 text-sm text-gray-500 dark:text-gray-400">
+          <div>© Last updated: Mar 2025</div>
+          <div>•</div>
           <div>{siteMetadata.author}</div>
+          <div>•</div>
+          <a
+            href="https://cu-webring.org"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-primary-500 hover:underline dark:hover:text-primary-400"
+          >
+            CU Webring
+          </a>
         </div>
         {/* <div className="mb-8 flex flex-col space-x-2 text-sm text-gray-500 dark:text-gray-400 md:flex-row">
           <Link
