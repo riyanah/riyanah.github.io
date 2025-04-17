@@ -23,6 +23,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
       <ScrollTopAndComment />
       <article>
         <div>
+
           <header className="pb-10">
             <div className="mt-4 space-y-1 text-left">
               <dl>
@@ -42,15 +43,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 {authorDetails.map((author) => (
                   <Link key={author.name} href={author.twitter}>
                     <div className="mb-1 flex items-center space-x-2">
-                      {author.avatar && (
-                        <Image
-                          src={author.avatar}
-                          width="24px"
-                          height="24px"
-                          alt="avatar"
-                          className="h-10 w-10 rounded-full"
-                        />
-                      )}
+                      
                       <dl className="whitespace-nowrap text-sm font-medium leading-5">
                         <dt className="sr-only">Name</dt>
                         <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
@@ -69,12 +62,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
           <div className="pb-8 " style={{ gridTemplateRows: 'auto 1fr' }}>
             <div className=" xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pb-4 dark:prose-dark">{children}</div>
-              <div className="flex justify-between pt-6 text-sm text-gray-700 dark:text-gray-300">
-                <Link href={editUrl(fileName)}>{'Have a nice day 🌞'}</Link>
-                <Link href={discussUrl(slug)} rel="nofollow">
-                  {'Discuss on Twitter'}
-                </Link>
-              </div>
             </div>
             <footer>
               <div className="flex flex-col text-sm font-medium sm:flex-row sm:justify-between sm:text-base">

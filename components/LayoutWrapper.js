@@ -20,8 +20,7 @@ const LayoutWrapper = ({ children }) => {
             </Link>
           </div>
           <div className="flex items-center text-base leading-5">
-            {/* Navbar */}
-            {/* <div className="hidden sm:block">
+            <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
@@ -31,10 +30,10 @@ const LayoutWrapper = ({ children }) => {
                   {link.title}
                 </Link>
               ))}
-            </div> */}
-            {/* <ThemeSwitch /> */}
-            {/* Navbar */}
-            {/* <MobileNav /> */}
+            </div>
+            <ThemeSwitch />
+
+            <MobileNav />
           </div>
         </header>
         <main className="mb-auto">{children}</main>

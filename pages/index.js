@@ -7,7 +7,7 @@ import formatDate from '@/lib/utils/formatDate';
 import Image from '@/components/Image';
 import projectsData from '@/data/projectsData';
 import Card from '@/components/Card';
-import ThemeSwitch from '@/components/ThemeSwitch';
+
 
 const MAX_DISPLAY = 5;
 
@@ -191,14 +191,14 @@ export default function Home({ posts }) {
             <span className="hidden sm:inline">Devpost</span>
           </a> */}
 
-          <ThemeSwitch />
+          
         </div>
         <div className="flex w-full justify-center">
           <div className="mt-2 justify-center"></div>
         </div>
 
         <div className="content mt-12 sm:mt-24">
-          <h2 className="mb-2 text-xl font-bold text-zinc-800 dark:text-white">Experiences</h2>
+          <h2 className="mb-2 text-xl font-bold text-zinc-800 dark:text-white">Experience</h2>
           <ul className="mt-8">
             {/* <li className="dark:text-zinc-350 my-5 flex items-center gap-4 text-zinc-500">
               <a
@@ -254,7 +254,7 @@ export default function Home({ posts }) {
                     IBM
                   </span>
                   <span className="ml-1.5 inline-block flex-none translate-y-px rounded bg-zinc-100 p-1 text-xs font-medium leading-none text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
-                    2024
+                    2023
                     <span className="text-zinc-350 dark:text-zinc-550 mx-0.5">—</span>
                     2024
                   </span>
