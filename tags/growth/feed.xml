@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Riyan Ahmed - Software Developer</title>
+      <link>https://www.riyanahmed.com//blog</link>
+      <description>Software Developer</description>
+      <language>en-us</language>
+      <managingEditor>riyan.ahmed@outlook.com (Riyan Ahmed)</managingEditor>
+      <webMaster>riyan.ahmed@outlook.com (Riyan Ahmed)</webMaster>
+      <lastBuildDate>Thu, 17 Apr 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.riyanahmed.com//tags/growth/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://www.riyanahmed.com//blog/projects/leetcode</guid>
+    <title>My New LeetCode Approach</title>
+    <link>https://www.riyanahmed.com//blog/projects/leetcode</link>
+    <description>How I’ve shifted my strategy to improve problem-solving and consistency on LeetCode.</description>
+    <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
+    <author>riyan.ahmed@outlook.com (Riyan Ahmed)</author>
+    <category>leetcode</category><category>programming</category><category>growth</category>
+  </item>
+
+    </channel>
+  </rss>
